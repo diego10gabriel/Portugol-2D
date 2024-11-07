@@ -30,9 +30,4 @@ se (emprest =< renda * 10) entao
 
      // Verificação das condições
     se (valorEmprestimo <= rendaMensal * 10) e (prestacaoMensal <= rendaMensal * 0,3) entao
-        escreval("Empréstimo pode ser concedido.")
-    senao
-        escreval("Empréstimo não pode ser concedido.")
-    fimse
-
 Fimalgoritmo

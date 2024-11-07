@@ -1,28 +1,28 @@
-Algoritmo "semnome"
+Algoritmo "12"
+
+//Escreva um programa que calcula o
+//desconto previdenciário de um funcionário.
+//Dado um salário, o programa deve retornar o
+//valor do desconto proporcional ao mesmo. O
+//cálculo segue a regra: o desconto é de 11% do
+//valor do salário, entretanto, o valor máximo
+//de desconto é 334,29, o que seja menor.
 
 Var
 // Seção de Declarações das variáveis 
-num:inteiro
-a:caractere
-
+salariof:real
+discount: inteiro
+sv: real
+a: real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-escreval("informe um numero, caractere ou letra")
-leia(a)
-num <- caracpnum(a)
 
-se (a = "a" ) ou (a = "e") ou (a = "i" ) ou (a = "o") ou (a = "u")entao
-   escreval("é uma vogal")
-   senao
-se (a = "b") ou (a = "c") ou (a = "d") ou (a = "f") ou (a = "g") ou (a = "h") ou (a="j") ou (a="k") ou (a="l") ou (a="m")ou(a="n")ou(a="p")ou(a="q")ou(a="r")ou(a="s")ou(a="t") ou (a="v") ou (a="w") ou(a="x") ou (a="y") ou (a="z") entao
-   escreval("é uma consoante")
-   senao
-   se (a="!") ou (a="?")ou(a="@")ou(a="$")ou(a="%")ou (a="#") entao
-   escreval("é um simbolo")
-   senao
-   escreval("é um numero")
-   fimse
-   fimse
-   fimse
-
+leia (salariof)
+//conta
+discount <- salariof : 11
+sv <- discount + salariof
+a <- 334.24
+se sv < a
+entao
+escreva("O Seu Valor Execedeu o valor maximo de desconto")
 Fimalgoritmo
