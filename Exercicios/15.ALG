@@ -1,17 +1,13 @@
 Algoritmo "13"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 25/10/2024
+
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 prest: real
 numprest: inteiro
 renda: real
 empres: real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
    escreval("digite o valor renda")
 leia(renda)
    escreval("digite o valor emprestimo")
@@ -25,9 +21,9 @@ prest := renda / numprest
 se (emprest =< renda * 10) entao
  escreval("Emprestimo Concedido")
  senao
- escreval ("Emprestimo Não Concedido")
+ escreval ("Emprestimo NÃ£o Concedido")
  fimse
 
-     // Verificação das condições
+     // VerificaÃ§Ã£o das condiÃ§Ãµes
     se (valorEmprestimo <= rendaMensal * 10) e (prestacaoMensal <= rendaMensal * 0,3) entao
 Fimalgoritmo
