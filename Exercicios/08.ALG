@@ -10,17 +10,19 @@ Var
 salariof: real
 salariov:real
 venda: inteiro
-s: real
+celular: real
 a: real
+b: real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 escreval("quantos celuares foram vendidos?")
 leia(venda)
 //conta
-s <- 1800
+celular <- 1800
 salariof <- 1200
-a <- venda * s
-salariov <- salariof + a
+a <- venda * celular
+b <- a : 15
+salariov <- salariof + b
 //saida
 escreval("Foram vendidos ", venda," celulares")
 escreval("O salario do fulano será R$",salariov,",00")

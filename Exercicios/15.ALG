@@ -1,29 +1,44 @@
-Algoritmo "13"
-
+Algoritmo "14"
+//Uma financeira usa o seguinte critério para
+//conceder empréstimos: o valor total do
+//empréstimo deve ser até dez vezes o valor da
+//renda mensal do solicitante e o valor da
+//prestação deve ser no máximo 30% da renda
+//mensal do solicitante. Escreva um programa que
+//leia a renda mensal de um solicitante, o valor
+//total do empréstimo solicitado e o número de
+//prestações que o solicitante deseja pagar e
+//informe se o empréstimo pode ou não ser concedido.
 Var
-// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
-prest: real
+
+prest: inteiro
 numprest: inteiro
-renda: real
+rendam: real
 empres: real
+
 Inicio
-// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
-   escreval("digite o valor renda")
-leia(renda)
+// entrada
+   escreval("digite o valor renda mensal")
+leia(rendam)
    escreval("digite o valor emprestimo")
 leia(empres)
-   escreval("digite o valor prest")
+   escreval("digite o valor prestação")
 leia(numprest)
 
 //conta
-prest := renda / numprest
+prest <- 30
 
-se (emprest =< renda * 10) entao
+//saida
+se (numprest > prest ) entao
+ escreval("Emprestimo Não Concedido, Pois Excedeu O Limite de Prestações!")
+ senao
+se (emprest <= rendam * 10) entao
  escreval("Emprestimo Concedido")
  senao
- escreval ("Emprestimo NÃ£o Concedido")
+ escreval ("Emprestimo Não Concedido")
+ fimse
  fimse
 
-     // VerificaÃ§Ã£o das condiÃ§Ãµes
-    se (valorEmprestimo <= rendaMensal * 10) e (prestacaoMensal <= rendaMensal * 0,3) entao
+
+
 Fimalgoritmo

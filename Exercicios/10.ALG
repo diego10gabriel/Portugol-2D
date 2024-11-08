@@ -1,5 +1,8 @@
-Algoritmo "09"
-
+Algoritmo "10"
+//Faça um algoritmo que leia a idade de uma
+//pessoa expressa em anos, meses e dias e
+//escreva a idade dessa pessoa expressa apenas
+//em dias. Considerar ano com 365 dias e mês com 30 dias.
 Var
 // Seção de Declarações das variáveis
 dia,mes,ano: inteiro
@@ -13,7 +16,6 @@ escreval("digite seu mes de nascimento")
 leia (mes)
 escreval("digite seu ano de nascimento")
 leia (ano)
-
 
 //saida
 count <- 0

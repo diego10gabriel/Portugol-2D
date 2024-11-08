@@ -1,9 +1,10 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 21/10/2024
+Algoritmo "03"
+//Faça um algoritmo de empréstimo bancário
+//que vai solicitar salário e o valor da prestação.
+//Se prestação for maior que 20% do salário,
+//imprimir : Empréstimo não pode ser
+//concedido. Senão imprimir Empréstimo pode
+//ser concedido.
 Var
 // Seção de Declarações das variáveis 
 sal: real

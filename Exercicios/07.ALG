@@ -10,15 +10,18 @@ Algoritmo "07"
 Var
 // Seção de Declarações das variáveis 
 valorloja, custo: real
+
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-escreval("                Seja Bem Vindo Para A Concessionaáia")
-escreval("__________________________________________________________")
+escreval("   Seja Bem Vindo Para A Concessionáia  ")
+escreval("_________________________________________")
+escreval("                                         ")
 escreval("Qual é o custo do carro")
 leia (custo)
+//conta
 valorloja := custo + (custo * 0.25) + (custo * 0.45 )
+//saida
 escreval("preço final em R$", valorloja,",00")
-
 Fimalgoritmo
 
 

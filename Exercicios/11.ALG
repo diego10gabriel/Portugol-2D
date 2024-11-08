@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "11"
 
 //Faça um algoritmo que transforme uma
 //velocidade fornecida em m/s pelo usuário
@@ -13,11 +13,8 @@ Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 escreval("Qual é a Velocidade Desejada?")
 leia(v)
-
-
 //conta
 valor <- v * 3.6
-
 //saida
 escreval(v, " * 3,6 = ", valor, "m/s")
 Fimalgoritmo
